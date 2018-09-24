@@ -1,1 +1,1 @@
-# CS495Group.github.io
+# CS495FinancialApp.github.io
