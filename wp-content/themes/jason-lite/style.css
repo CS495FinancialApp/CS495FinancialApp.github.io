@@ -3521,13 +3521,13 @@ body div div div.slideshow-controls a:hover
 body div div div.slideshow-controls a:first-child
 {
     border-right: 2px solid white !important;
-    background-image: url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/icons/arrow-left.svg') !important;
+    background-image: url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/icons/arrow-left.svg') !important;
     background-position: 10px 9px !important;
 }
 
 body div div div.slideshow-controls a:last-child
 {
-    background-image: url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/icons/arrow-right.svg') !important;
+    background-image: url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/icons/arrow-right.svg') !important;
     background-position: 10px 9px !important;
 }
 
@@ -4381,7 +4381,7 @@ div#infinite-handle button
     content: '';
     pointer-events: none;
 
-    background: url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/icons/cube-pattern.svg') center center repeat;
+    background: url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/icons/cube-pattern.svg') center center repeat;
     background-color: #80c9dd;
 
     -webkit-filter: brightness(.85) contrast(1.5);
@@ -4989,8 +4989,8 @@ div#infinite-handle button
     font-weight: normal;
     font-style: normal;
 
-    src: url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.eot?v=4.3.0');
-    src: url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.eot#iefix&v=4.3.0') format('embedded-opentype'), url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('http://CS495FinancialApp/CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    src: url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.eot?v=4.3.0');
+    src: url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.eot#iefix&v=4.3.0') format('embedded-opentype'), url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('http://CS495FinancialApp.github.io/wp-content/themes/jason-lite/assets/fonts/fontawesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 }
 
 .icon
