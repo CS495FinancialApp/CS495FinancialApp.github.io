@@ -12,6 +12,8 @@
 <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
 
 
+<link rel='stylesheet' id='jquery.prettyphoto-css'  href='https://cs495financialapp.github.io/contents/lib/wp-video-lightbox/css/prettyPhoto.css' type='text/css' media='all' />
+<link rel='stylesheet' id='video-lightbox-css'  href='https://cs495financialapp.github.io/contents/lib/wp-video-lightbox/wp-video-lightbox.css' type='text/css' media='all' />
 <link rel='stylesheet' id='github-embed-css'  href='https://cs495financialapp.github.io/contents/lib/github-embed/css/github-embed.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css'  href='https://cs495financialapp.github.io/contents/lib/gutenberg/build/block-library/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='twentyseventeen-fonts-css'  href='https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
@@ -19,11 +21,18 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentyseventeen-ie8-css'  href='https://cs495financialapp.github.io/contents/ui/theme/assets/css/ie8.css' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='https://cs495financialapp.github.io/inc/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://cs495financialapp.github.io/inc/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://cs495financialapp.github.io/contents/lib/wp-video-lightbox/js/jquery.prettyPhoto.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cs495financialapp.github.io/contents/lib/wp-video-lightbox/js/video-lightbox.js'></script>
 <!--[if lt IE 9]>
 <script type='text/javascript' src='https://cs495financialapp.github.io/contents/ui/theme/assets/js/html5.js'></script>
 <![endif]-->
-<script type='text/javascript' src='https://cs495financialapp.github.io/inc/js/jquery/jquery.js'></script>
-<script type='text/javascript' src='https://cs495financialapp.github.io/inc/js/jquery/jquery-migrate.min.js'></script>
 
 
 
@@ -31,7 +40,29 @@
 
 
 
-		<style id="twentyseventeen-custom-header-styles" type="text/css">
+<script>
+            WP_VIDEO_LIGHTBOX_VERSION="1.8.7";
+            WP_VID_LIGHTBOX_URL="https://cs495financialapp.github.io/contents/lib/wp-video-lightbox";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }
+            </script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style id="twentyseventeen-custom-header-styles" type="text/css">
 				.site-title a,
 		.colors-dark .site-title a,
 		.colors-custom .site-title a,
